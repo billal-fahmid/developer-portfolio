@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.back-color{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    /* width: 150px; */
+    height: 64px;
+    background-color:#FD6E0A ;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 35px;
+
+}
+/* nevigation and header area styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding-top: 50px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+}
+/* bennar styles */
+.header-bennar{
+    display: flex;
+    align-items: center;
+    margin: 0 70px 0 100px;
+    
+}
+.sub-title{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    margin-bottom: 5px;
+
+}
+.banner-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    margin-bottom: 20px;
+
+}
+.banner-details{
+    color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+
+    
+}
+/* main area styles */
+main{
+    width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+/* about aria styles */
+.about{
+    margin-top: 130px;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+
+}
+.section-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.about-details{
+    color:#757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+;
+}
+/* info area styles */
+.parsonal-info{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.info{
+    /* margin-right: 50px; */
+    /* padding: 10px 22px; */
+    align-items: center;
+}
+.info-fil{
+    color: #757575;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+.info-data{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
