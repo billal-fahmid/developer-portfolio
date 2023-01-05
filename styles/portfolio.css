@@ -8,6 +8,9 @@
     background-repeat: no-repeat;
     background-position: bottom right,left;
 }
+section{
+    margin-top: 130px;
+}
 
 .text-primary{
     color: #FD6E0A;
@@ -90,7 +93,7 @@ main{
 
 /* about aria styles */
 .about{
-    margin-top: 130px;
+    /* margin-top: 130px; */
     padding: 130px 150px;
     background-color: #FFF8F3;
     border-radius: 10px;
@@ -139,7 +142,7 @@ main{
 /* this is skills area */
 
 .skills-area{
-    margin-top:130px ;
+    /* margin-top:130px ; */
     background-color: ;
 }
 .skills-container{
@@ -171,4 +174,52 @@ main{
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+}
+/* this is my resume area */
+
+.resume-area{
+
+}
+.qualify{
+    display: flex;
+    margin-top: 110px;
+    gap: 18px;
+}
+.education-all{
+    /* margin-top: 30px; */
+}
+.resume-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    /* margin-bottom: 30px; */
+    padding-left: 30px;
+   
+}
+.edu-exper{
+    padding: 30px;
+    border-bottom: 1px solid #D1D1D1;
+    
+}
+.edu-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+.edu-sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.edu-describtion{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
 }
